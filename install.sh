@@ -42,7 +42,7 @@ enable_service m-sch
 " > /home/vagrant/devstack/localrc
 
 mkdir /opt/stack
-ln -s /git/tempest /opt/stack/tempest
+#ln -s /git/tempest /opt/stack/tempest
 
 chown vagrant:vagrant /opt/stack
 chown -R vagrant:vagrant devstack
